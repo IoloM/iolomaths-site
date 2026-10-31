@@ -1,0 +1,1 @@
+function e(e){return e.replace(/<svg\b([^>]*)>/,(e,t)=>`<svg${t.replace(/\s+role="img"/,``)} aria-hidden="true" focusable="false">`)}export{e as t};

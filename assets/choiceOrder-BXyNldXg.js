@@ -1,0 +1,1 @@
+function e(e){let t=2166136261;for(let n=0;n<e.length;n++)t^=e.charCodeAt(n),t=Math.imul(t,16777619);return t>>>0}function t(t){let n=t.join(``),r=t.map((t,r)=>({i:r,k:e(`${n}\u0002${r}\u0002${t}`)}));return r.sort((e,t)=>e.k-t.k||e.i-t.i),r.map(e=>e.i)}export{t};
